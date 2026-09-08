@@ -21,7 +21,7 @@ Jalankan file `.exe` yang telah diunduh dan ikuti wizard instalasi hingga selesa
 ## 3. Instal Plugin Kotlin Multiplatform
 Buka Android Studio, masuk ke menu **Plugins** > **Marketplace**, lalu cari dan instal plugin **Kotlin Multiplatform**.
 
-![3. Install KMP Plugin](PAM.1.3.png)
+![3. Install KMP Plugin](PAM%20Documentation/PAM.1.3.png)
 
 ---
 
@@ -45,8 +45,7 @@ Ekstrak file proyek hasil download, lalu buka folder tersebut menggunakan Androi
 ## 6. Modifikasi Teks Pesan Nama
 Buka file `GreetingUtil.kt` (pada direktori `shared/src/commonMain/kotlin/org/example/project/`) dan ubah return value dari fungsi `sayHello` menjadi string nama Anda:
 
-fun sayHello(to: String): String =
-    "Hello, Galih Sigit Satrio!"
+![6. Modifikasi di dalam GreetingUtil.kt](PAM%20Documentation/PAM.1.6.png)
 
 ---
 
@@ -60,5 +59,5 @@ Jalankan target konfigurasi `desktopApp`. Setelah jendela aplikasi terbuka, klik
 ## 8. Running Aplikasi pada Android Emulator
 Pilih target konfigurasi `androidApp` dan jalankan pada **Android Emulator (Medium Phone API 37.1)**. Klik tombol **"Click me!"** untuk memastikan antarmuka berjalan baik di Android.
 
-![8. Output Android Emulator](PAM%20Documentation/PAM.1.8.jpg)
+![8. Output Android Emulator](PAM%20Documentation/PAM.1.8.png)
 
